@@ -18,14 +18,15 @@ public class LazyInnerClassSingletonTest {
             //强制访问
             c.setAccessible(true);
 
-            //暴力初始化
+//            //暴力初始化
+            System.out.println("初始化之前-----------------");
             Object o1=c.newInstance();
-            Object o2=c.newInstance();
-
+//            Object o2=c.newInstance();
+//
             System.out.println(o1);
-            System.out.println(o2);
-            System.out.println(o1==o2);
-            //执行结果False
+//            System.out.println(o2);
+//            System.out.println(o1==o2);
+//            //执行结果False
 
         }catch (Exception e){
             e.printStackTrace();

@@ -15,8 +15,8 @@ public class LazySimpleSingletonTest {
 
         //使用EndLazyInnerClassSingleton时候，默认先初始化内部类
         EndLazyInnerClassSingleton e1=EndLazyInnerClassSingleton.getInstance();
-        EndLazyInnerClassSingleton e2=EndLazyInnerClassSingleton.getInstance();
+//        EndLazyInnerClassSingleton e2=EndLazyInnerClassSingleton.getInstance();
         System.out.println(e1);
-        System.out.println(e2);
+//        System.out.println(e2);
     }
 }
